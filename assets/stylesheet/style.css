@@ -100,6 +100,7 @@ li.left{
 
 .landing .col-sm-4 li{
   font-size: 15px;
+  font-weight: bold;
   margin-bottom: 15px;
   cursor: pointer;
   list-style: square;
@@ -305,6 +306,75 @@ li.left{
   height: 100%;
 }
 
+.footer{
+  height: auto;
+  background: black;
+  border-top: 1px solid red;
+  margin-top: 40px;
+  padding: 30px 0;
+}
+
+.footer-links > *{
+  float:left;
+}
+
+.footer-links .footer-logo{
+  background: url('https://g.europe.newsweek.com/www/img/redesign/sprite.png?v=1.0.0') 0 -6px no-repeat #ff0500;
+  width: 230px;
+  height: 44px;
+}
+
+.footer-links .footer-text{
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 13px 0 13px 25px;
+  text-align: center;
+}
+
+.footer-social-box{
+  display: block;
+  width: auto;
+  height: 44px;
+}
+
+.footer-social-box .footer-social{
+  display: inline-block;
+  background: url('https://g.europe.newsweek.com/www/img/redesign/sprite.png') 0 -120px no-repeat transparent;
+  width: 44px;
+  height: 44px;
+  margin-left: 25px;
+}
+
+.footer-more{
+  padding-top: 20px;
+  height: auto;
+  background: black;
+}
+
+.footer-more img:hover, .footer-more h1:hover, .footer-more li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer-more h1{
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.footer-more{
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.last-footer{
+  padding-top: 10px;
+  background: black;
+  color: white;
+}
+
 
 
 
@@ -373,6 +443,16 @@ li.left{
     display: block;
     width: 100%;
     padding-bottom: 40px;
+  }
+
+  .footer-links .footer-logo{
+    background: url('https://g.europe.newsweek.com/www/img/redesign/sprite.png') -8px -60px no-repeat #ff0500;
+    width: 44px;
+    height: 44px;
+  }
+
+  .footer-more img{
+    transform: scale(0.8);
   }
 
 }
